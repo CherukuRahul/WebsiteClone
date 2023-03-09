@@ -1,0 +1,340 @@
+/*header-start*/
+
+body,html
+{
+    width :100%;
+    padding : 0px ;
+    margin : 0px;
+}
+.header
+{
+    background-color : #0d972ef4;
+   height : 75px;    
+   display : none ;
+}
+.header:hover
+{
+    display : none ;
+}
+.header-content
+{
+    width : 80%;
+    color : white;
+    padding-left : 20px;
+ 
+}
+.header-content a 
+{
+    color : white;
+    background-color : none;
+}
+
+.header-btn
+{
+ 
+ color : green;   
+ width :60px;
+ height : 25px;
+ margin : 20px;
+ 
+}
+.header-content,.header-btn
+{
+    display : inline-block;
+}
+/*header-end*/
+
+/*navbar-starting*/
+.nav-home,.nav-page,.nav-items
+{
+    display : inline-block;
+}
+.navbar
+{
+    background-color : #3f3f3f;
+    margin-bottom : 0px;
+    position: fixed;
+  
+  left: 0;
+  right: 0;
+  z-index: 100;
+    
+}
+.nav-home
+{
+    color : white ;
+    padding-left : 20px ;
+}
+.nav-items
+{
+    color : white ;
+    margin-left : 15px;
+    font-size :14px;
+    text-transform: uppercase;
+}
+.nav-items a 
+{
+    text-decoration : none ;
+    color : white;
+    
+    transistion : color 8s;
+}
+.nav-items :hover
+{
+    color : green;
+}
+.nav-page input 
+{
+    width : 100px;
+    opacity : 0.5;
+    border :none;
+    text-align :center;
+    
+}
+/* navbar-ending*/
+/*dashboard-starting*/
+.dashboard h5
+{
+    opacity : 0.5;
+    margin-left : 20px;
+}
+.dashboard h2
+{
+    font-size : 20px;
+    padding-bottom : 10px;
+    padding-left : 10px;
+}
+.dashboard
+{
+      height : 50px;
+     padding-bottom : 0px;    
+    
+}
+/*dashboard-ending*/
+/*properties-starting */
+.properties
+{
+   background-color : #ededed9f;
+   height : 1500px;
+    
+}
+.properties h3 
+{
+    padding : 20px ;
+    text-transform: capitalize;
+}
+
+.interview-card,.skill-card 
+{
+    height : 230px ;
+    width : 410px ;
+    border-radius : 10px;
+    box-shadow : 2px 2px 8px #cdcdcd ;
+    margin-left : 40px ;
+    display : inline-block;
+    transistion : background-color 8s;
+    background-color : #ffffff;
+    transistion : hover 8s;
+    
+}
+.skill-card
+{
+    float : right ;
+    margin-right : 50px ;
+}
+.properties h5
+{
+    opacity : 0.5;
+    padding-left : 18px;
+    height: 5px;
+}
+.properties h2 
+{
+    margin-left : 15px ;
+    font-size : 25px ;
+    text-transform: capitalize;
+   
+}
+.properties p
+{
+    height ; 10px ;
+    width : 90%;
+    padding-left : 10px;
+    height : 20px;
+}
+.properties button
+{
+    width : 120px ;
+    height : 30px ;
+    margin : 20px;
+    color : white;
+    border : 2px dotted green;
+    border-radius : 5px;
+     background-color : green;
+}
+
+.skill-card button
+{
+    margin-top : 34px;
+    
+}
+.skill-card:hover,.interview-card:hover
+{
+    transform:scale(1.1);
+    color :#ffffff;
+    background-color:black;   
+}
+/* certification starting*/
+.Problem-solving,.python,.standout 
+{
+    height : 150px ;
+    width : 280px ;
+    display : inline-block ;
+    box-shadow : 2px 2px 8px #c6c6c6 ;
+    transistion : color 8s;
+    transform : scale(1);
+    tansistion :transform 8s;
+    border-radius :10px;
+    background-color:#ffffff;
+    
+    
+}
+.Problem-solving 
+{
+    float :left ;
+    margin-left : 30px ;   
+}
+.python
+{ 
+    margin-left : 30px ;   
+    float : center;
+}
+.python button
+{
+    margin-top :22px;
+}
+.standout 
+{
+margin-right:30px;
+   float: right ;
+   
+}
+.standout p
+{
+    font-size:13px;
+    text-transform: justify;
+}
+.standout h2
+{
+    font-size :16px;
+}
+.Problem-solving button
+{
+    margin-top :2px;
+}
+.python:hover
+{
+  transform:scale(1.1);
+    color :#ffffff;
+    background-color:black;    
+}
+.standout:hover
+{
+     transform:scale(1.1);
+    color :#ffffff;
+    background-color:black;   
+}
+.Problem-solving:hover
+{
+    transform:scale(1.1);
+    color :#ffffff;
+    background-color:black;   
+}
+/*certification ending*/
+.Topics1,.Topics2,.Topics3
+{
+    display : inline-block;
+    padding: 20px;
+}
+.Topics 
+{
+    height :230px;
+    width :90%;
+    box-shadow : 2px 2px 8px gray;
+    background-color : #ffffff;
+}
+.Topics3
+{
+    float :right;
+    
+}
+.Topics2
+{
+    float:center;
+    
+}
+.Topics1
+{
+    float:left;
+    
+}
+.Topics
+{
+    margin-left : 40px;
+}
+.Topics li
+{
+    margin :10px;
+    
+    font-size: 18px;
+    list-style-type : none ;
+}
+/*preparation*/
+.prep{
+    height : 150px;
+    width : 440px;
+    box-shadow : 2px 2px 8px gray ;
+    float : left;
+    margin-left : 30px;
+    display : inline-block;
+    border-radius :10px;
+    background-color :#ffffff;
+}
+.prep h5 {
+    opacity:0.5;
+    display:inline-block;
+    border:0px solid gray;
+    height : 15px;
+    padding : 2px;
+    margin-left : 7px;
+    
+    
+}
+.prep:hover{
+    background-color : black;
+     color : white;
+     transform:scale(1.1);
+}
+/*preparation-ending*/
+/*Ending*/
+.ending{
+    margin-top : 50%;
+    height: 50px;
+    background-color: white ;
+    box-shadow : 2px 2px 8px #c9c9c9;
+   
+}
+.end-content li {
+     
+    display : inline-block;
+    margin:8px;
+   
+    border-left :2px solid #c9c9c9;
+    height: 15px;
+}
+.end-content a {
+    text-decoration: none ;
+    color : #0d9d16 ;
+    padding-left : 8px;
+}
+ /* endingi of the page */
